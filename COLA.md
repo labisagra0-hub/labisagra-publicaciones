@@ -13,7 +13,7 @@ Este repo es público y sirve solo de depósito: las tareas de producción dejan
 3. Escribir el manifiesto `pub/cola/AAAA-MM-DD-HHMM-<pieza>.json` (formato abajo).
 4. Subir: `cd pub && git add -A && git -c user.name="La Bisagra" -c user.email="labisagra0@gmail.com" commit -qm "Cola: <pieza> <fecha>" && git push -q origin main`.
    Si el push es rechazado porque otra tarea subió algo: `git pull --rebase -q origin main` y reintentar (hasta 3 veces).
-5. No crees nada en Metricool vos: el Publicador corre cada hora a los :40 y lo hace.
+5. No crees nada en Metricool vos: el Publicador corre cada hora a los :20 (de 8:20 a 0:20) y lo hace.
 
 ## 2. Formato del manifiesto
 
@@ -46,10 +46,10 @@ Este repo es público y sirve solo de depósito: las tareas de producción dejan
 | Tarea | Pieza | Publicaciones |
 |---|---|---|
 | Pulso cada 2 horas | `pulso` | IG `STORY` (ahora) |
-| Efemérides: carrusel y reel | `carrusel-efemerides` | IG `POST` 12:30 + TikTok carrusel 12:30 + IG `STORY` con la placa 1 a las 12:35 |
+| Efemérides: carrusel y reel (11:25) | `carrusel-efemerides` | IG `POST` 12:30 + TikTok carrusel 12:30 + IG `STORY` con la placa 1 a las 12:35 |
 | Efemérides: carrusel y reel | `reel-efemerides` | IG `REEL` 12:45 + TikTok 12:45 + YouTube `short` 12:45, todos con `"ia": true` |
 | Briefing diario (lun a vie) | `tarjeta-hoy` | IG `STORY` 17:30 + TikTok carrusel de 1 foto 17:30 |
-| Carrusel El día en el mundo | `carrusel-dia` | IG `POST` 21:30 + TikTok carrusel 21:30 + IG `STORY` con la lámina 1 a las 21:35 |
+| Carrusel El día en el mundo (20:30) | `carrusel-dia` | IG `POST` 21:30 + TikTok carrusel 21:30 + IG `STORY` con la lámina 1 a las 21:35 |
 
 ## 4. Carpetas
 
